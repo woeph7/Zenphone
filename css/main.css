@@ -242,7 +242,7 @@ THIRD SCREEN
   color: #fff;
   text-align: center;
 }
-.screen-3_features_item-numbers{
+.screen-3_features_item-number{
   height: 36px;
   font-size: 36px;
   font-weight: 100;
@@ -268,9 +268,159 @@ THIRD SCREEN
 FORTH SCREEN
 */
 .screen-4{
-  background: blue;
+  background: #fff;
   height: 800px;
   position: relative;
   overflow: hidden;
+}
 
+.screen-4_wrap{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+.screen-4_heading{
+  font-size: 46px;
+  font-weight: 100;
+  line-height: 46px;
+  color: #f01400;
+  text-align: center;
+  padding-top: 135px;
+}
+.screen-4_subheading{
+  font-size: 14px;
+  color: #464a4f;
+  text-align: center;
+  padding-top: 29px;
+  line-height: 28px;
+}
+
+.screen-4_type{
+  width: 1260px;
+  height: 270px;
+  position: absolute;
+  top: 306px;
+  margin-left: 30px;
+}
+
+.screen-4_type_item{
+  width: 220px;
+  height: 270px;
+  margin-right: 90px;
+  float: left;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+}
+.screen-4_type_item_i_1{
+  background:url('../img/phone-1.png') no-repeat left top;
+}
+.screen-4_type_item_i_2{
+  background:url('../img/phone-2.png') no-repeat left top;
+}
+.screen-4_type_item_i_3{
+  background:url('../img/phone-3.png') no-repeat left top;
+}
+.screen-4_type_item_i_4{
+  background:url('../img/phone-4.png') no-repeat left top;
+}
+.screen-4_type_item_title{
+  width: 100%;
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #2c3233;
+  position: absolute;
+  bottom: -44px;
+}
+.screen-4_type_item_desc{
+  width: 100%;
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+  color: #a4a9ae;
+  position: absolute;
+  bottom: -66px;
+}
+
+
+/*
+FIFTH SCREEN
+*/
+.screen-5{
+  height: 600px;
+  background-color: #d9dde1;
+  position: relative;
+  overflow: hidden;
+}
+.screen-5_bg{
+  height: 433px;
+  width: 1920px;
+  background:url('../img/bg-screen-5.png') no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+  bottom: -100px;
+
+}
+.screen-5_heading{
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  font-size: 46px;
+  color: #f01400;;
+  text-align: center;
+  padding-top: 96px;
+  line-height: 46px;
+}
+.screen-5_subheading{
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #2c3137;
+  text-align: center;
+  padding-top: 25px;
+  line-height: 28px;
+}
+
+/*
+SIXTH SCREEN
+*/
+.screen-6{
+  height: 80px;
+  padding: 120px 0;
+
+  position: relative;
+  overflow: hidden;
+  background: #2b333b url('../img/bg-screen-buy.png') no-repeat center;
+  text-align: center;
+}
+.screen-6_button{
+  height: 80px;
+  width: 240px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #f01414;
+  display: inline-block;
+  border-radius: 3px;
+  transition: all .5s;
+  cursor: pointer;
+}
+.screen-6_button:hover{
+  box-shadow: 0px 0px 10px  rgba(125, 125, 125, 0.5);
+}
+
+footer{
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  background-color: #07111b;
 }
