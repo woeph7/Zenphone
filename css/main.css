@@ -8,7 +8,7 @@
 
 }
 .header_wrap{
-  width: 1200px;
+  /*width: 1200;*/
   height: 80px;
   margin: 0 auto;
   position: relative;
@@ -271,7 +271,6 @@ FORTH SCREEN
   background: #fff;
   height: 800px;
   position: relative;
-  overflow: hidden;
 }
 
 .screen-4_wrap{
