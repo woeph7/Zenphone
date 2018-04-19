@@ -69,6 +69,33 @@ SCREEN-2 ANIMATION
   transform: translate(0, 0);
 }
 
+
+/* KEYFRAME ANIMATION */
+.screen-2_point:before,
+.screen-2_point:after{
+  content: ' ';
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background-color: rgba(255, 0, 0, 0.4);
+  border-radius: 50%;
+}
+
+.screen-2_point:before{
+    -webkit-animation: bounce 2s infinite ease-in-out 1s;
+}
+.screen-2_point:after{
+    -webkit-animation: bounce 2s infinite ease-in-out 0s;
+}
+
+.screen-2_point_i_1:after,
+.screen-2_point_i_1:before{
+    left: 242px;
+}
+
 /*
 SCREEN-3 ANIMATION
 */
@@ -190,4 +217,17 @@ SCREEN-5 ANIMATION
 .screen-5_bg_animate_done{
   opacity: 1;
   transform: translate(0, 0);
+}
+
+
+/*
+DEFINE KEYFRAME ANIMATION
+*/
+@-webkit-keyframes bounce {
+  0%, 100% {
+      transform: scale(0);
+  }
+  50% {
+      transform: scale(1);
+  }
 }
